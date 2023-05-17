@@ -1,0 +1,73 @@
+.w-100 {
+    width: 100%;
+}
+.icon {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.theme  { 
+    font-size: 14px;
+    color: var(--grey);
+}
+.theme-btn {
+    width: 60px;
+    height: 32px;
+    border-radius: 18px;
+    padding: 10px;
+    border: 1px solid var(--grey-1);
+    margin: 0 10px;
+}
+.theme-btn .uil {
+    margin: 0 2px;
+    cursor: pointer;
+    color: var(--grey);
+}
+.report-btn {
+    padding: 10px 20px;
+    background: var(--secondary);
+    border: 2px solid var(--grey);
+    color: var(--grey-2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.download {
+    width: 80%;
+    background: var(--bg);
+    border-color: var(--grey-2);
+    font-weight: 700;
+}
+.download .uil {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.bounce-rate {
+    background: var(--grey-2);
+}
+.open  {
+    font-size: 30px;
+    background: var(--bg);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.open .uil {
+    color: var(--grey-2);
+}
+.calendar {
+    width: 65%;
+}
+.day    {
+    border: 1px solid var(--grey);
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--grey);
+}

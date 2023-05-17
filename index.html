@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <!--- Unicorns --->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+        <!--- Css --->
+        <link rel="stylesheet" href="style1.css"/>
+    </head>
+    <body>
+        <!--- Mobile button --->  
+        <input type="checkbox" class="mobile-btn" id="mobile-btn"> 
+        <label for="mobile-btn" class="mobile-label">
+            <div class="label-icons flex">
+                <i class="uil uil-bars"></i>   
+                <i class="uil uil-times"></i> 
+            </div>
+        </label>
+        <!--- End Mobile button --->
+        <!--- Dashboard --->
+        <div class="dashboard">
+            <!--- Sidebar --->
+            <div class="sidebar flex-c"> 
+                <!--- Brand --->
+                <div class="brand flex">
+                    <i class="uil uil-airplay"></i>
+                    <p>Frontend Devoloper</p>
+                </div>
+                <!--- User --->
+                <div class="user flex-c">
+                    <img src="12909611_10206273978788751_2823947967612784449_o.jpg" alt="User">
+                    <p class="name">Neşet YILDIRIR</p>
+                    <a href="second.html" class="edit-btn">CV</a>
+                </div>
+                <!--- Side menu --->
+                <div class="side-menu flex-c flex-b">
+                    <!--- Munu items --->
+                    <div class="menu-items flex-c">
+                        <div class="item flex active">
+                            <i class="uil uil-apps"></i>
+                            <p>Dashboard</p>
+                        </div>
+                        <div class="item flex">
+                            <i class="uil uil-file-landscape"></i>
+                            <p>Motivation letter</p>
+                        </div>
+                        <div class="item flex">
+                            <i class="uil uil-github"></i>
+                            <p> <a href="https://github.com/neset123" target="_blank" style="color: white;">Github</a> </p>
+                        </div>
+                        <div class="item flex">
+                            <i class="uil uil-linkedin"></i>                    
+                            <p> <a href="https://www.linkedin.com/in/ne%C5%9Fet-kr-yildirir-b4b153126" style="color: white;" target="_blank">Linkedin</a> </p>
+                        </div>
+                        <div>
+                            <p>Total Reviews: <span id="count">0</span></p>
+                        <button onclick="incrementCount()">Add Review</button>
+                        </div>
+                        <div class="item flex">
+                        
+                            <canvas id="myCanvas" width="100" height="100"></canvas>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--- Change theme --->
+                <div class="theme flex flex-sb" >
+                
+                    <button onclick="toggleMode()">
+                        <i class="uil uil-sun light-btn" style="color: black;"></i>
+                        <i class="uil uil-moon dark-btn" style="color: black;"></i></button>
+                </div>
+            </div>
+            <!--- Ensidebar --->
+            
+            <!--— Main Content -->
+            <div class="main-content">
+                <!--— Topbar -->
+                <div class="Topbar" >
+                    <h2> Proficiency</h2>
+                
+                <div class="topbar2">
+                    <button onclick="dateShow()" id="dateClose">Show Date</button>
+                    <div id="Date"></div>
+                </div>
+                    <div class="topbar2">
+                        
+                        <button onclick="refreshPage()">Refresh Page</button>
+                    
+                    </div>
+                </div>
+                <!--— End Topbar -->
+                <!--— Content Data -->
+                <div class="content-data">
+                    <h2 > frontend languages</h2>
+                    <div class="frontend">
+                        
+                        <div class="html">
+                            <img src="html-removebg-preview.png" alt="html" sizes="auto" style="display: block;" >
+                            <div class="percentage-container">
+                                <div class="percentage">85%</div>
+                              </div>
+
+                              <label class="newpage"><a href="htmlskils.html"  target="_blank">html skills</a></label>
+                        </div>
+                        <div class="css">
+                            <img src="css-removebg-preview.png" alt="css" sizes="auto" >
+                            <div class="percentage-container">
+                                <div class="percentage">85%</div>
+                              </div>
+                              <label class="newpage"><a href="cssskilss.html" target="_blank" >Css skills</a></label>
+
+                        </div>
+                        <div class="javascript">
+                            <img src="js-removebg-preview.png" alt="js" sizes="auto" >
+                            <div class="percentage-container">
+                                <div class="percentage-js">60%</div>
+                              </div>
+                            <label class="newpage"><a href="javascriptskills.html"  target="_blank">js skills</a></label>
+
+                        </div>
+                    </div>
+                    <h2>Libraries</h2>
+                    <div class="Libraries">
+                        <div class="Wordpress">
+                            <img src="wrd-removebg-preview.png" alt="wrd" sizes="auto" >
+                            <div class="percentage-container">
+                                <div class="percentage">85%</div>
+
+                              </div>
+                              <label class="newpage"><a href="" onclick="alert('Website is still updating')">Wordpress</a></label>
+
+
+                        </div>
+                        <div class="Bootstrap">
+                            <br>
+                            <img src="Bootstrap_logo-removebg-preview.png" alt="Bootstrap" sizes="auto" >
+
+                            <br><br>
+                            <div class="percentage-container">
+                                <div class="percentage-js">60%</div>
+                              </div>
+                              <label class="newpage"><a href="" onclick="alert('Website is still updating')" >Bootstrap</a></label>
+
+                        </div>
+                        <div class="React">
+                            <img src="react-removebg-preview.png" alt="react" sizes="auto" >
+                            <div class="percentage-container">
+                                <div class="percentage-js">60%</div>
+                              </div>
+
+                            <label class="newpage"><a href="" onclick="alert('Website is still updating')" >React</a></label>
+
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+                    <!--— Traffic -->
+                
+                <!--— End ccontent data -->
+            </div>
+            <!--— End Maincontent -->
+        </div>
+        <!--— End Dashboard -->
+        <script src="game.js"></script>
+
+        <script src="data.js"></script>
+        
+    </body>
+</html>
+
+    <!---notification flex">
+
+    
+    i— Web Scoring —
+    <div class="box web-scoring flex">
+    
+    <div class="btn scoring-btn">Web Score With AT</div>
+    <div>
+    i— End Web Scoring —
+    
+    4— Customer Churn Rate —
+    <div class="box ccr flex-c flex-sb">
+    <h2 class="w-100">Customer Churn Rate</h2>
+    
+    <div class="ccr-graph w-100">
+    <svg
+    height="auto"
+    viewBox="0 0 332 250" = Iprogrammercloud
+    
+    XmLns="http: // ww .w3.0rg/2000/5vg"
+    
+    <path
+    Class="svg-graph”
+    d="MO 250h66.4V100.464q0~4-4-4HAG~4 04 4ZM83 250M66.4V149.297q0-4-4-4HBTq-4 0-4
+    4ZM166 250166.4V74.422q0-4-4-4H170q-4 0-4 4ZM249 250h66.4V72.8500-4-4-4H253G~4 0-4 42"
+    Fll="#FFf372"
+    »
+    </svg>
+    </div>
+    </div>
+    @— End Customer Churn Rate —»
+    </divs
+    «“— End Content Data —
+    </div>
+    «— End Main Content —
+    </div>
+    
+    «¢— End Dashboard —>
+    
+</div>   
