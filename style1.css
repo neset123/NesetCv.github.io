@@ -338,6 +338,8 @@ justify-content: space-between;}
     .sidebar .brand p {
       display: none;
     }
+    .frontend .html, .css, .javascript {width: 100%;}
+    .Libraries .Wordpress, .Bootstrap, .React {width: 100%;}
     .frontend,.Libraries {
         flex-direction: column;
     }
