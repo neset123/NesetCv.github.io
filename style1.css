@@ -338,6 +338,31 @@ justify-content: space-between;}
     .sidebar .brand p {
       display: none;
     }
+    .sidebar .brand i {
+        display: none;
+      }
+    .sidebar {
+      order: 1;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar .item {width: 100%;
+        margin: 0;
+    padding: 0;
+justify-content: center;}
+
+    .side-menu  {width: 100%;
+    margin: 0;
+padding: 0;}
+.menu-items  {width: 100%;
+    margin: 0;
+padding: 0;}
+
+
+    p {width: 100%;
+        margin: 0;
+    text-align: center;}
     .frontend .html, .css, .javascript {width: 100%;}
     .Libraries .Wordpress, .Bootstrap, .React {width: 100%;}
     .frontend,.Libraries {
